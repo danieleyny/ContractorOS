@@ -147,7 +147,7 @@ export default function ProjectDashboardPage() {
       </div>
 
       {/* Budget Health Bar */}
-      <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
         <div className="flex items-center justify-between">
           <h3 className="text-sm font-semibold">Budget Health</h3>
           <span className="text-sm font-medium tabular-nums">
@@ -166,7 +166,7 @@ export default function ProjectDashboardPage() {
       {/* Two columns on desktop */}
       <div className="grid gap-6 lg:grid-cols-2">
         {/* Mini Gantt / Milestones */}
-        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
           <h3 className="text-sm font-semibold">Upcoming Milestones</h3>
           <div className="mt-4 space-y-3">
             {MOCK_MILESTONES.map((ms, i) => (
@@ -198,7 +198,7 @@ export default function ProjectDashboardPage() {
         </div>
 
         {/* Activity Feed */}
-        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
           <h3 className="text-sm font-semibold">Recent Activity</h3>
           <div className="mt-4 space-y-3">
             {MOCK_ACTIVITY.map((item) => (
@@ -224,7 +224,7 @@ export default function ProjectDashboardPage() {
             <Link
               key={link.href}
               href={`/projects/${projectId}/${link.href}`}
-              className="flex items-center gap-3 rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
+              className="flex items-center gap-3 rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
             >
               <div className={cn('flex size-10 items-center justify-center rounded-full', link.color)}>
                 <link.icon className="size-5" />

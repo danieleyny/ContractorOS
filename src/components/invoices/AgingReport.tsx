@@ -155,7 +155,7 @@ export function AgingReport() {
   return (
     <div className="space-y-6">
       {/* Chart */}
-      <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
         <h3 className="mb-4 font-semibold">Accounts Receivable Aging</h3>
         <div className="h-[300px]">
           <ResponsiveContainer width="100%" height="100%">
@@ -192,7 +192,7 @@ export function AgingReport() {
           return (
             <div
               key={bucket}
-              className="rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10"
+              className="rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10"
             >
               <p className="text-sm text-muted-foreground">{bucket} Days</p>
               <p className="mt-1 text-xl font-bold tabular-nums">
@@ -209,7 +209,7 @@ export function AgingReport() {
       </div>
 
       {/* Detail table */}
-      <div className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10">
         <div className="border-b p-5">
           <h3 className="font-semibold">Outstanding Invoices</h3>
         </div>

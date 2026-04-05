@@ -86,7 +86,7 @@ export default function BudgetPage() {
       </div>
 
       {/* Budget vs Actual Chart */}
-      <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
         <h3 className="mb-4 text-sm font-semibold">Budget vs Actual</h3>
         <ResponsiveContainer width="100%" height={320}>
           <BarChart data={CHART_DATA} margin={{ top: 5, right: 20, left: 10, bottom: 5 }}>
@@ -109,7 +109,7 @@ export default function BudgetPage() {
       </div>
 
       {/* Budget Tracker Table */}
-      <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
         <BudgetTracker />
       </div>
     </div>

@@ -305,7 +305,7 @@ export default function TimeTrackingPage() {
           />
 
           {/* Hours by Employee Bar Chart (mock) */}
-          <div className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-6 shadow-sm ring-1 ring-foreground/10">
             <div className="flex items-center gap-2">
               <BarChart3 className="size-4 text-[#1e3a5f]" />
               <h3 className="text-sm font-semibold">Hours by Employee This Week</h3>

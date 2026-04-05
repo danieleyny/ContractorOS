@@ -94,7 +94,7 @@ export default function InvoiceDetailPage() {
 
       {/* Payment History */}
       {invoiceId !== 'new' && (
-        <div className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10">
           <div className="border-b p-5">
             <h3 className="font-semibold">Payment History</h3>
           </div>

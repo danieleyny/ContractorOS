@@ -115,7 +115,7 @@ export function SubcontractorProfile({ data, compact = false, onClick }: Subcont
   return (
     <div
       className={cn(
-        'rounded-xl bg-white shadow-sm ring-1 ring-foreground/10 transition-shadow hover:shadow-md',
+        'rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10 transition-shadow hover:shadow-md',
         onClick && 'cursor-pointer'
       )}
       onClick={onClick}

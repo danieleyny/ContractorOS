@@ -141,7 +141,7 @@ export default function LeadDetailPage() {
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         {/* Left column (2/3): Activity Timeline */}
         <div className="lg:col-span-2">
-          <div className="rounded-xl border bg-white p-5">
+          <div className="rounded-xl border bg-white light-card p-5">
             <InteractionTimeline />
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function LeadDetailPage() {
         {/* Right column (1/3): Info cards */}
         <div className="space-y-5">
           {/* Contact info card */}
-          <div className="rounded-xl border bg-white p-5">
+          <div className="rounded-xl border bg-white light-card p-5">
             <h3 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">
               Contact Info
             </h3>
@@ -196,7 +196,7 @@ export default function LeadDetailPage() {
           </div>
 
           {/* Lead info card */}
-          <div className="rounded-xl border bg-white p-5">
+          <div className="rounded-xl border bg-white light-card p-5">
             <h3 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">
               Lead Info
             </h3>
@@ -271,7 +271,7 @@ export default function LeadDetailPage() {
           </div>
 
           {/* Linked estimates card */}
-          <div className="rounded-xl border bg-white p-5">
+          <div className="rounded-xl border bg-white light-card p-5">
             <h3 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">
               Linked Estimates
             </h3>
@@ -299,7 +299,7 @@ export default function LeadDetailPage() {
           </div>
 
           {/* Tags */}
-          <div className="rounded-xl border bg-white p-5">
+          <div className="rounded-xl border bg-white light-card p-5">
             <h3 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">
               Tags
             </h3>
@@ -315,7 +315,7 @@ export default function LeadDetailPage() {
 
           {/* Notes */}
           {lead.notes && (
-            <div className="rounded-xl border bg-white p-5">
+            <div className="rounded-xl border bg-white light-card p-5">
               <h3 className="mb-2 text-sm font-semibold text-muted-foreground uppercase tracking-wide">
                 Notes
               </h3>

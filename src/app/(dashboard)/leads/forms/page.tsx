@@ -190,7 +190,7 @@ export default function LeadFormsPage() {
         {forms.map((form) => (
           <div
             key={form.id}
-            className="rounded-xl border bg-white p-5 shadow-sm transition-shadow hover:shadow-md"
+            className="rounded-xl border bg-white light-card p-5 shadow-sm transition-shadow hover:shadow-md"
           >
             <div className="flex items-start justify-between">
               <div className="flex items-center gap-2">

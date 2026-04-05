@@ -67,7 +67,7 @@ export function ProjectCard({
   return (
     <div
       onClick={() => router.push(`/projects/${id}`)}
-      className="cursor-pointer rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
+      className="cursor-pointer rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
     >
       {/* Header */}
       <div className="flex items-start justify-between gap-3">

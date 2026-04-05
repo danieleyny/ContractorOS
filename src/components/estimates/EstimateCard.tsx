@@ -74,7 +74,7 @@ export function EstimateCard({
   return (
     <div
       onClick={() => router.push(`/estimates/${id}`)}
-      className="group cursor-pointer rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
+      className="group cursor-pointer rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
     >
       <div className="flex items-start justify-between">
         <div className="space-y-1">

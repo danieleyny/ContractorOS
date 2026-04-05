@@ -95,7 +95,7 @@ export function LeadCard({ lead, overlay = false }: LeadCardProps) {
       {...(overlay ? {} : listeners)}
       onClick={() => router.push(`/leads/${lead.id}`)}
       className={cn(
-        'group cursor-pointer rounded-lg border bg-white p-3 shadow-sm transition-all hover:shadow-md hover:ring-1 hover:ring-[#1e3a5f]/20',
+        'group cursor-pointer rounded-lg border bg-white light-card p-3 shadow-sm transition-all hover:shadow-md hover:ring-1 hover:ring-[#1e3a5f]/20',
         isDragging && 'ring-2 ring-[#e8913a]',
         overlay && 'shadow-lg ring-2 ring-[#e8913a]'
       )}

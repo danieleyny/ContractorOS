@@ -424,7 +424,7 @@ export default function DocumentsPage() {
             {expiringDocs.map((doc) => (
               <div
                 key={doc.id}
-                className="flex items-center justify-between rounded-lg bg-white px-3 py-2 shadow-sm"
+                className="flex items-center justify-between rounded-lg bg-white light-card px-3 py-2 shadow-sm"
               >
                 <div className="flex items-center gap-2">
                   <FileText className="size-4 text-muted-foreground" />

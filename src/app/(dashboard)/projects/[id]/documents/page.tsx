@@ -168,7 +168,7 @@ export default function DocumentsPage() {
             <button
               key={folder.id}
               onClick={() => setCurrentFolder(folder.id)}
-              className="flex flex-col items-center gap-2 rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
+              className="flex flex-col items-center gap-2 rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
             >
               <div className="flex size-12 items-center justify-center rounded-full bg-[#1e3a5f]/10 text-[#1e3a5f]">
                 <Folder className="size-6" />
@@ -195,7 +195,7 @@ export default function DocumentsPage() {
 
           <h2 className="text-lg font-semibold">{currentFolderData?.name}</h2>
 
-          <div className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10">
             {currentFiles.length === 0 ? (
               <div className="flex flex-col items-center justify-center py-12 text-muted-foreground">
                 <File className="mb-2 size-8" />

@@ -590,7 +590,7 @@ export function CostCatalogManager() {
       </div>
 
       {/* Table */}
-      <div className="rounded-lg border bg-white">
+      <div className="rounded-lg border bg-white light-card">
         <Table>
           <TableHeader>
             <TableRow className="hover:bg-transparent">

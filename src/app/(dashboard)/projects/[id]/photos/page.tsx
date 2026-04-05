@@ -98,7 +98,7 @@ export default function PhotosPage() {
           <div
             key={photo.id}
             onClick={() => setSelectedPhoto(photo.id)}
-            className="cursor-pointer overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
+            className="cursor-pointer overflow-hidden rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
           >
             {/* Placeholder image */}
             <div
@@ -127,7 +127,7 @@ export default function PhotosPage() {
           onClick={() => setSelectedPhoto(null)}
         >
           <div
-            className="relative max-w-2xl w-full mx-4 overflow-hidden rounded-xl bg-white shadow-2xl"
+            className="relative max-w-2xl w-full mx-4 overflow-hidden rounded-xl bg-white light-card shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <Button

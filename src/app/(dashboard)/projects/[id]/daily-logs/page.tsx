@@ -159,7 +159,7 @@ export default function DailyLogsPage() {
 
       {/* Form */}
       {showForm && (
-        <div className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-6 shadow-sm ring-1 ring-foreground/10">
           <h3 className="mb-4 text-lg font-semibold">New Daily Log</h3>
           <DailyLogForm
             onSubmit={() => setShowForm(false)}
@@ -177,7 +177,7 @@ export default function DailyLogsPage() {
           return (
             <div
               key={log.id}
-              className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10 transition-all"
+              className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10 transition-all"
             >
               {/* Collapsed summary */}
               <button

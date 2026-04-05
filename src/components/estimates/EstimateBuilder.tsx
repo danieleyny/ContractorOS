@@ -550,7 +550,7 @@ export function EstimateBuilder({ initialData }: EstimateBuilderProps) {
   return (
     <div className="space-y-6">
       {/* Top bar */}
-      <div className="flex flex-col gap-4 rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col gap-4 rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex flex-1 flex-wrap items-center gap-3">
           <Input
             value={estimateName}
@@ -607,7 +607,7 @@ export function EstimateBuilder({ initialData }: EstimateBuilderProps) {
 
       {/* View toggle */}
       <div className="flex items-center gap-2">
-        <div className="flex items-center gap-2 rounded-lg bg-white px-3 py-1.5 shadow-sm ring-1 ring-foreground/10">
+        <div className="flex items-center gap-2 rounded-lg bg-white light-card px-3 py-1.5 shadow-sm ring-1 ring-foreground/10">
           {isClientView ? (
             <Eye className="size-4 text-[#e8913a]" />
           ) : (
@@ -634,7 +634,7 @@ export function EstimateBuilder({ initialData }: EstimateBuilderProps) {
         {sections.map((section) => (
           <div
             key={section.id}
-            className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10"
+            className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10"
           >
             {/* Section header */}
             <div className="flex items-center gap-2 border-b px-4 py-3">
@@ -870,7 +870,7 @@ export function EstimateBuilder({ initialData }: EstimateBuilderProps) {
 
       {/* Internal notes (hidden in client view) */}
       {!isClientView && (
-        <div className="rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10">
           <h3 className="mb-2 text-sm font-semibold">Internal Notes</h3>
           <Textarea
             value={internalNotes}
@@ -882,7 +882,7 @@ export function EstimateBuilder({ initialData }: EstimateBuilderProps) {
       )}
 
       {/* Summary */}
-      <div className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-6 shadow-sm ring-1 ring-foreground/10">
         <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
           Estimate Summary
         </h3>

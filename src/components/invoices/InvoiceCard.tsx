@@ -60,7 +60,7 @@ export function InvoiceCard({
 
   return (
     <div
-      className="flex items-center justify-between rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10 transition-colors hover:bg-muted/30 cursor-pointer"
+      className="flex items-center justify-between rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10 transition-colors hover:bg-muted/30 cursor-pointer"
       onClick={onView}
     >
       <div className="flex items-center gap-4">

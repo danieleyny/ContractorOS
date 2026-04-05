@@ -230,7 +230,7 @@ export function InteractionTimeline({
                 </div>
 
                 {/* Content */}
-                <div className="min-w-0 flex-1 rounded-lg border bg-white p-3">
+                <div className="min-w-0 flex-1 rounded-lg border bg-white light-card p-3">
                   <div className="flex items-start justify-between gap-2">
                     <div>
                       <p className="text-sm font-medium">

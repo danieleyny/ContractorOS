@@ -135,7 +135,7 @@ export function TimeTracker() {
   return (
     <div className="space-y-6">
       {/* Clock In/Out Section */}
-      <div className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-6 shadow-sm ring-1 ring-foreground/10">
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
           <div className="text-center sm:text-left">
             <p className="text-sm font-medium text-muted-foreground">Current Status</p>
@@ -214,7 +214,7 @@ export function TimeTracker() {
       </div>
 
       {/* Today's Entries */}
-      <div className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-6 shadow-sm ring-1 ring-foreground/10">
         <div className="flex items-center justify-between">
           <div>
             <h3 className="text-sm font-semibold">Today&apos;s Entries</h3>
@@ -327,7 +327,7 @@ export function TimeTracker() {
       </div>
 
       {/* Weekly Summary */}
-      <div className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-6 shadow-sm ring-1 ring-foreground/10">
         <h3 className="text-sm font-semibold">Weekly Summary</h3>
         <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-5">
           <div className="rounded-lg bg-[#1e3a5f]/5 p-3 text-center">

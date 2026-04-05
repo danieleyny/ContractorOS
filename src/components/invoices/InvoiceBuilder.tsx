@@ -278,7 +278,7 @@ export function InvoiceBuilder({
   return (
     <div className="space-y-6">
       {/* Top bar */}
-      <div className="flex flex-col gap-4 rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col gap-4 rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-4">
           <div>
             <Label className="text-xs text-muted-foreground">Invoice #</Label>
@@ -330,7 +330,7 @@ export function InvoiceBuilder({
       </div>
 
       {/* Type, Dates, Terms */}
-      <div className="grid gap-4 rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10 sm:grid-cols-4">
+      <div className="grid gap-4 rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10 sm:grid-cols-4">
         <div>
           <Label className="text-xs text-muted-foreground">Invoice Type</Label>
           <Select
@@ -389,7 +389,7 @@ export function InvoiceBuilder({
       </div>
 
       {/* Line Items */}
-      <div className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10">
         <div className="border-b p-5">
           <h3 className="font-semibold">Line Items</h3>
         </div>
@@ -529,7 +529,7 @@ export function InvoiceBuilder({
 
       {/* Notes & Payment Instructions */}
       <div className="grid gap-4 sm:grid-cols-2">
-        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
           <Label className="text-xs text-muted-foreground">Notes</Label>
           <Textarea
             {...form.register('notes')}
@@ -537,7 +537,7 @@ export function InvoiceBuilder({
             className="mt-1 min-h-[100px]"
           />
         </div>
-        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
           <Label className="text-xs text-muted-foreground">Payment Instructions</Label>
           <Textarea
             {...form.register('payment_instructions')}

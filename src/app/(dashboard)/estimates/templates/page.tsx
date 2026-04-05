@@ -118,7 +118,7 @@ export default function EstimateTemplatesPage() {
         {MOCK_TEMPLATES.map((template) => (
           <div
             key={template.id}
-            className="group rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
+            className="group rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10 transition-all hover:shadow-md hover:ring-[#1e3a5f]/20"
           >
             <div className="flex items-start justify-between">
               <div className="flex items-center gap-3">

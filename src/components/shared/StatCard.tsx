@@ -37,7 +37,7 @@ export function StatCard({
   const styles = changeTypeStyles[changeType];
 
   return (
-    <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+    <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
       <div className="flex items-start justify-between">
         <div className="space-y-1">
           <p className="text-sm font-medium text-muted-foreground">{title}</p>

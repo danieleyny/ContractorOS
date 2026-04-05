@@ -214,7 +214,7 @@ export default function PurchaseOrderDetailPage() {
       />
 
       {/* PO Info Header */}
-      <div className="grid gap-4 rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10 sm:grid-cols-3">
+      <div className="grid gap-4 rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10 sm:grid-cols-3">
         <div className="space-y-3">
           <div className="flex items-center gap-2">
             <Package className="size-5 text-[#1e3a5f]" />
@@ -282,7 +282,7 @@ export default function PurchaseOrderDetailPage() {
       </div>
 
       {/* Line Items with receiving */}
-      <div className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10">
         <div className="border-b p-5">
           <h3 className="font-semibold">Line Items</h3>
         </div>

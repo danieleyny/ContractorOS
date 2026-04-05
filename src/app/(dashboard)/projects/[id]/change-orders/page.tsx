@@ -170,7 +170,7 @@ export default function ChangeOrdersPage() {
       </div>
 
       {/* Table */}
-      <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
         <DataTable
           columns={columns}
           data={MOCK_CHANGE_ORDERS}

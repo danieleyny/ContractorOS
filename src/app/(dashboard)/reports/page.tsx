@@ -177,7 +177,7 @@ export default function ReportsPage() {
         {/* ============ FINANCIAL TAB ============ */}
         <TabsContent value="financial" className="space-y-6">
           {/* Revenue Chart */}
-          <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
             <h3 className="mb-4 font-semibold">Monthly Revenue</h3>
             <div className="h-[300px]">
               <ResponsiveContainer width="100%" height="100%">
@@ -202,7 +202,7 @@ export default function ReportsPage() {
           </div>
 
           {/* P&L */}
-          <div className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10">
             <div className="border-b p-5">
               <h3 className="font-semibold">Profit & Loss Summary (YTD)</h3>
             </div>
@@ -249,7 +249,7 @@ export default function ReportsPage() {
           </div>
 
           {/* Cash Flow */}
-          <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
             <h3 className="mb-4 font-semibold">Cash Flow</h3>
             <div className="h-[300px]">
               <ResponsiveContainer width="100%" height="100%">
@@ -284,7 +284,7 @@ export default function ReportsPage() {
 
           {/* Aging Summary Card */}
           <Link href="/reports/aging" className="block">
-            <div className="flex items-center justify-between rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10 transition-colors hover:bg-muted/30">
+            <div className="flex items-center justify-between rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10 transition-colors hover:bg-muted/30">
               <div>
                 <h3 className="font-semibold">Accounts Receivable Aging</h3>
                 <p className="mt-1 text-sm text-muted-foreground">
@@ -300,7 +300,7 @@ export default function ReportsPage() {
         <TabsContent value="projects" className="space-y-6">
           {/* Project Status Pie */}
           <div className="grid gap-6 lg:grid-cols-2">
-            <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+            <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
               <h3 className="mb-4 font-semibold">Project Status Distribution</h3>
               <div className="h-[300px]">
                 <ResponsiveContainer width="100%" height="100%">
@@ -327,7 +327,7 @@ export default function ReportsPage() {
             </div>
 
             {/* Budget vs Actual */}
-            <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+            <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
               <h3 className="mb-4 font-semibold">Budget vs Actual</h3>
               <div className="h-[300px]">
                 <ResponsiveContainer width="100%" height="100%">
@@ -356,7 +356,7 @@ export default function ReportsPage() {
           </div>
 
           {/* Schedule Performance */}
-          <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
             <h3 className="mb-4 font-semibold">Schedule Performance (days)</h3>
             <div className="h-[280px]">
               <ResponsiveContainer width="100%" height="100%">
@@ -392,7 +392,7 @@ export default function ReportsPage() {
         {/* ============ LEADS TAB ============ */}
         <TabsContent value="leads" className="space-y-6">
           {/* Lead Funnel */}
-          <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
             <h3 className="mb-4 font-semibold">Lead Funnel</h3>
             <div className="space-y-2">
               {FUNNEL_DATA.map((stage) => {
@@ -421,7 +421,7 @@ export default function ReportsPage() {
           </div>
 
           {/* Lead Source ROI */}
-          <div className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10">
             <div className="border-b p-5">
               <h3 className="font-semibold">Lead Source ROI</h3>
             </div>
@@ -482,7 +482,7 @@ export default function ReportsPage() {
           </div>
 
           {/* Conversion Rate Trend */}
-          <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
             <h3 className="mb-4 font-semibold">Conversion Rate Trend (%)</h3>
             <div className="h-[260px]">
               <ResponsiveContainer width="100%" height="100%">
@@ -514,7 +514,7 @@ export default function ReportsPage() {
         <TabsContent value="crew" className="space-y-6">
           {/* Utilization Gauge */}
           <div className="grid gap-6 lg:grid-cols-2">
-            <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+            <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
               <h3 className="mb-4 font-semibold">Crew Utilization Rate</h3>
               <div className="flex flex-col items-center justify-center py-8">
                 <div className="relative">
@@ -553,7 +553,7 @@ export default function ReportsPage() {
             </div>
 
             {/* Hours by Project */}
-            <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+            <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
               <h3 className="mb-4 font-semibold">Hours by Project</h3>
               <div className="h-[280px]">
                 <ResponsiveContainer width="100%" height="100%">

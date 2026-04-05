@@ -25,7 +25,7 @@ function CalendarPlaceholder() {
   const eventDays = new Set([3, 7, 10, 14, 17, 21, 24, 28]);
 
   return (
-    <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+    <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
       <h3 className="mb-4 text-center text-lg font-semibold">{monthName}</h3>
       <div className="grid grid-cols-7 gap-px">
         {DAYS.map((d) => (
@@ -40,7 +40,7 @@ function CalendarPlaceholder() {
               day === today.getDate()
                 ? 'bg-[#1e3a5f]/5 font-semibold'
                 : day
-                ? 'bg-white'
+                ? 'bg-white light-card'
                 : 'bg-muted/30'
             }`}
           >
@@ -91,13 +91,13 @@ export default function SchedulePage() {
         </TabsList>
 
         <TabsContent value="gantt">
-          <div className="mt-4 rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+          <div className="mt-4 rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
             <GanttChart />
           </div>
         </TabsContent>
 
         <TabsContent value="tasks">
-          <div className="mt-4 rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+          <div className="mt-4 rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
             <TaskList />
           </div>
         </TabsContent>

@@ -298,7 +298,7 @@ export default function ReportBuilderPage() {
         {/* Left Panel - Configuration */}
         <div className="space-y-4">
           {/* Data Source */}
-          <div className="rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10">
             <Label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
               Data Source
             </Label>
@@ -320,7 +320,7 @@ export default function ReportBuilderPage() {
           </div>
 
           {/* Field Picker */}
-          <div className="rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10">
             <Label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
               Fields
             </Label>
@@ -347,7 +347,7 @@ export default function ReportBuilderPage() {
           </div>
 
           {/* Filters */}
-          <div className="rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10">
             <div className="flex items-center justify-between">
               <Label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
                 Filters
@@ -415,7 +415,7 @@ export default function ReportBuilderPage() {
           </div>
 
           {/* Group By & Sort By */}
-          <div className="rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10">
             <div className="space-y-3">
               <div>
                 <Label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
@@ -459,7 +459,7 @@ export default function ReportBuilderPage() {
           </div>
 
           {/* Chart Type */}
-          <div className="rounded-xl bg-white p-4 shadow-sm ring-1 ring-foreground/10">
+          <div className="rounded-xl bg-white light-card p-4 shadow-sm ring-1 ring-foreground/10">
             <Label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
               Chart Type
             </Label>
@@ -483,7 +483,7 @@ export default function ReportBuilderPage() {
         </div>
 
         {/* Right Panel - Preview */}
-        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
           <div className="mb-4 flex items-center justify-between">
             <h3 className="font-semibold">Preview</h3>
             <span className="text-xs text-muted-foreground">

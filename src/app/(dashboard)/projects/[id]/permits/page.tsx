@@ -185,7 +185,7 @@ export default function PermitsPage() {
             Add Permit
           </Button>
         </div>
-        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
           <DataTable columns={permitColumns} data={MOCK_PERMITS} />
         </div>
       </div>
@@ -203,7 +203,7 @@ export default function PermitsPage() {
             Schedule Inspection
           </Button>
         </div>
-        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+        <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
           <DataTable columns={inspectionColumns} data={MOCK_INSPECTIONS} />
         </div>
       </div>

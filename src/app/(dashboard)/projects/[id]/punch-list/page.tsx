@@ -92,7 +92,7 @@ export default function PunchListPage() {
       />
 
       {/* Progress bar */}
-      <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card p-5 shadow-sm ring-1 ring-foreground/10">
         <div className="flex items-center justify-between">
           <span className="text-sm font-medium">
             {completedCount} of {items.length} items completed
@@ -125,7 +125,7 @@ export default function PunchListPage() {
       </div>
 
       {/* Punch List Items */}
-      <div className="rounded-xl bg-white shadow-sm ring-1 ring-foreground/10">
+      <div className="rounded-xl bg-white light-card shadow-sm ring-1 ring-foreground/10">
         {filteredItems.map((item, index) => (
           <div
             key={item.id}
