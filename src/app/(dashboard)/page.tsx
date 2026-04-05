@@ -1,5 +1,6 @@
 'use client'
 
+import { useRouter } from 'next/navigation'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
@@ -50,13 +51,15 @@ const stats = [
 ]
 
 const quickActions = [
-  { label: 'New Lead', icon: Users, variant: 'outline' as const },
-  { label: 'New Estimate', icon: Calculator, variant: 'outline' as const },
-  { label: 'New Project', icon: FolderKanban, variant: 'outline' as const },
-  { label: 'New Invoice', icon: Receipt, variant: 'outline' as const },
+  { label: 'New Lead', icon: Users, variant: 'outline' as const, href: '/leads?new=1' },
+  { label: 'New Estimate', icon: Calculator, variant: 'outline' as const, href: '/estimates/new' },
+  { label: 'New Project', icon: FolderKanban, variant: 'outline' as const, href: '/projects?new=1' },
+  { label: 'New Invoice', icon: Receipt, variant: 'outline' as const, href: '/invoices/new' },
 ]
 
 export default function DashboardPage() {
+  const router = useRouter()
+
   return (
     <div className="space-y-8">
       {/* Header */}
@@ -106,7 +109,12 @@ export default function DashboardPage() {
           {quickActions.map((action) => {
             const Icon = action.icon
             return (
-              <Button key={action.label} variant={action.variant} className="gap-2">
+              <Button
+                key={action.label}
+                variant={action.variant}
+                className="gap-2"
+                onClick={() => router.push(action.href)}
+              >
                 <Plus className="h-4 w-4" />
                 <Icon className="h-4 w-4" />
                 {action.label}
